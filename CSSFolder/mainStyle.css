@@ -1,0 +1,99 @@
+* {
+    border: 0;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+html{
+    background-color: #0c2628;
+
+}
+
+
+#title{
+  
+    color:#829997;
+    display: flex;
+    justify-content: center;
+    font-family: 'Orbitron', sans-serif;
+    margin: 1rem 1rem;
+   
+}
+#containerForCanvas{
+    background-color: #0c2628;
+    color:#829997;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-height: fit-content;
+    padding: 1rem 1rem;
+}
+
+canvas{
+    border: solid black;
+    background-color: rgb(201, 201, 201);
+    
+}
+
+#instructions{  
+    background-color: #0c2628;
+    color:#c3e7e4;
+    font-size: 15px;
+    font-family: 'Orbitron', sans-serif;
+    margin: 2rem 1rem;
+    padding: 2rem 0rem 0rem 9rem;
+    
+}
+
+#instructions, p{
+    margin: 0.5em 0.5em;
+}
+
+.gameImg
+{
+    margin: 0.5em 0.5em;
+}
+
+#stats{
+
+    background-color: #0c2628;
+    color:#bccccb;
+    font-size: 20px;
+    font-family: 'Orbitron', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin: 2rem 2rem;
+    padding: 1rem 1rem;
+}
+
+#dumpfire, #winningTP, #splash{
+    display: none;
+}
+
+
+#buttonMenu{
+    background-color: #0c2628;
+    color:#829997;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.buttons{
+    color: #0c2628;
+    background-color:#829997;
+    justify-content: center;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 20px;
+    padding: 0.5rem 0.5rem;
+    margin: 0rem 0.5rem;
+}
+
+a{
+    text-decoration: none;    
+    background-color:#829997;
+}

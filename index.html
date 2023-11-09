@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2020: The Game</title>
+    <link rel="stylesheet" href="./CSSFolder/mainStyle.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet"> //The font is from Google Fonts
+</head>
+<body>
+
+    <h1 id="title">2020: The Game</h1>
+    <div id="containerForCanvas">
+        <canvas id="myCanvas"></canvas>
+    </div>
+    <div id="stats">
+        <p id="mentalHealthBar"></p> 
+        <p id="toiletPaperScore"></p> 
+        <p id="lives"></p>
+    </div>    
+    <div id="buttonMenu">
+        <button id="startButton" class="buttons" onclick="StartAnimate()">Start</button>
+        <button id="restartGame" class="buttons" onclick="RestartGame()">Reset</button>
+        <button id="controlTutorial" class="buttons"><a href="instructions.html">How to Play</a></button>
+    </div>
+
+    
+    <img src="./Images/dumpsterFire2020.jpg" id="dumpfire"></img>
+    <img src="./Images/winningTP.jpg" id="winningTP"></img>
+    <img src="./Images/frontSplash.jpg" id="splash"></img>
+
+    <script src="./JSFiles/shelfClass.js" ></script>   
+    <script src="./JSFiles/toiletPaperClass.js" ></script>
+    <script src="./JSFiles/wineBoxClass.js" ></script>
+    <script src="./JSFiles/karenClass.js" ></script>      
+    <script src="./JSFiles/playerCharacterClass.js"></script>    
+    <script src="./JSFiles/mainGameFile.js"></script>
+    
+</body>
+</html>
