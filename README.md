@@ -1,4 +1,4 @@
-# 2020: The Game
+# 2020: The Game :video_game:
 
 This project is a 2D game from a top-down view where the user plays a character who is stuck in the dire times of 2020 and the toilet paper shortage. 
 
